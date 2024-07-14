@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text="Send Data From One Activity to Another Activity"
+        android:textColor="#E91E63"
+        android:textSize="18sp"
+        android:textStyle="bold">
+    </TextView>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="165dp"
+        android:layout_marginTop="200dp"
+        android:text="Name"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/usn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="250dp"
+        android:text="USN"
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/collegeName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="300dp"
+        android:text="College Name"
+        >
+    </EditText>
+    <Button
+        android:id="@+id/SendData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="400dp"
+        android:text="Send Data">
+    </Button>
+</RelativeLayout>
